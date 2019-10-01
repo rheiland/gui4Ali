@@ -1,0 +1,31 @@
+# File to be used with params_run.py
+# Allows for changing parameters in .xml, running sim, and writing results to different folders.
+# <key> <value> pairs, where <key> is the first unique node name found in the xml.
+#
+#		<persistence_time type="double">4.0</persistence_time>
+#		<migration_speed type="double">0.25</migration_speed>
+#
+#		<adhesion_strength type="double">0.5</adhesion_strength>
+#		<repulsion_strength type="double">0.5</repulsion_strength>
+#		<rel_max_adhesion_dist type="double">1.25</rel_max_adhesion_dist>
+#
+folder  run1 
+max_time 420
+full_data.enable false
+persistence_time 4.0
+migration_speed 4.0
+adhesion_strength 0.1
+repulsion_strength 0.5
+rel_max_adhesion_dist 1.25
+#
+folder  run2 
+adhesion_strength 0.2
+repulsion_strength 0.5
+#
+folder  run3 
+adhesion_strength 0.3
+repulsion_strength 0.5
+#
+folder  run4 
+adhesion_strength 0.4
+repulsion_strength 0.5
